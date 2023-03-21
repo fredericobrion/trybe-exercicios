@@ -1,19 +1,21 @@
 # Meu repositório de exercícios - Trybe
 
 Contém todas as atividades desenvolvidas por mim durante minha trajetória na Trybe
-## Fundamentos do Desenvolvimento Web
+## Fundamentos do Desenvolvimento Web:hourglass_flowing_sand:
 
 #### Seção 1: Unix, Shell e Git
 
-- [ ] 1.3 - Git & GitHub - Entendendo os comandos
+- [X] 1.1 Unix & Shell
+- [X] 1.2 Git - O que é e para que serve
+- [X] 1.3 Git & GitHub - Entendendo os comandos
 
 #### Seção 2: Introdução à HTML & CSS
 
-- [ ] 2.1 - HTML & CSS - Estruturas de página
-- [ ] 2.2 - HTML & CSS - Primeiros passos em CSS
-- [ ] 2.3 - HTML & CSS - Seletores e posicionamento
-- [ ] 2.4 - HTML Semântico
-- [ ] 2.5 - Projeto - Lessons Learned
+- [ ] 2.1 HTML & CSS - Estruturas de página
+- [ ] 2.2 HTML & CSS - Primeiros passos em CSS
+- [ ] 2.3 HTML & CSS - Seletores e posicionamento
+- [ ] 2.4 HTML Semântico
+- [ ] 2.5 Projeto - Lessons Learned
 
 #### Seção 3: Introdução à JavaScript
 
