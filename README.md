@@ -5,4 +5,4 @@ Contém todas as atividades desenvolvidas por mim durante minha trajetória na T
 
 ### Seção 1: Unix, Shell e Git
 
-- [] 1.3 - Git & GitHub - Entendendo os comandos
+- [ ] 1.3 - Git & GitHub - Entendendo os comandos
