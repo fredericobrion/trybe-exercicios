@@ -187,3 +187,40 @@ Contém todas as atividades desenvolvidas por mim durante minha trajetória na T
 
 
 ## Ciência da Computação:hourglass_flowing_sand:
+
+#### Seção 1: Introdução à Python
+- [ ] 1.1 Aprendendo Python
+- [ ] 1.2 Entrada e Saída de Dados
+- [ ] 1.3 Testes
+- [ ] 1.4 Projeto - Job Insights
+
+#### Seção 2: Padrões de Projeto
+- [ ] 2.1 P.O.O. em Python
+- [ ] 2.2 Padrões - Iterator, Adapter, Strategy
+- [ ] 2.3 Padrões - Decorator, Observer, Factory
+- [ ] 2.4 Projeto - Relatórios de Estoque
+
+#### Seção 3: Raspagem de Dados
+- [ ] 3.1 Raspagem de Dados
+- [ ] 3.2 Outras Ferramentas de Raspagem de Dados
+- [ ] 3.3 Dia de Atividades - Crawlers + POO
+- [ ] 3.4 Projeto - Tech news
+
+#### Seção 4: Algoritmos
+- [ ] 4.1 Complexidade de Algoritmos
+- [ ] 4.2 Recursividade e Estratégias para solução de problemas
+- [ ] 4.3 Algoritmo de ordenação e busca
+- [ ] 4.4 Projeto - Algoritmos
+
+#### Seção 5: Estrutura de Dados 1: Arrays, Listas, Filas e Pilhas
+- [ ] 5.1 Arquitetura de Computadores
+- [ ] 5.2 Arquitetura de redes
+- [ ] 5.3 Arrays
+- [ ] 5.4 Nó e Listas Encadeadas
+- [ ] 5.5 Pilhas e Filas
+- [ ] 5.6 Projeto - TING - Trybe Is Not Google
+
+#### Seção 6: Estrutura de Dados 2: Hashmaps e Sets
+- [ ] 6.1 Hashmap e Dict
+- [ ] 6.2 Set
+- [ ] 6.3 Projeto - Restaurant Orders
