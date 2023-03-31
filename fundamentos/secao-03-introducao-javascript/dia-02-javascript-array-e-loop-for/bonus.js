@@ -106,5 +106,62 @@
 
 
 
-
 // 7)
+// let base = 5;
+// let middle = (base + 1) / 2;
+// let left = middle;
+// let right = middle;
+// let symbol = '*';
+// let inputLine = '';
+
+// for (let lineIndex = 0; lineIndex <= middle; lineIndex += 1) {
+//     for (let columnIndex = 0; columnIndex <= base; columnIndex += 1) {
+//         if (columnIndex > left && columnIndex < right) {
+//           inputLine += symbol;
+//         } else {
+//           inputLine += ' ';
+//         }
+//     }
+//     console.log(inputLine);
+//     inputLine = '';
+//     left -= 1;
+//     right += 1;
+// }
+
+
+
+// 8)
+// let base = 7;
+// let middle = (base + 1) / 2;
+// let left = middle;
+// let right = middle;
+// let symbol = '*';
+
+// for (let lineIndex = 1; lineIndex <= middle; lineIndex += 1) {
+//   let inputLine = '';
+//     for (let columnIndex = 1; columnIndex <= base; columnIndex += 1) {
+//         if (columnIndex == left || columnIndex == right || lineIndex == middle) {
+//           inputLine += symbol;
+//         } else {
+//           inputLine += ' ';
+//         }
+//     }
+//     left -= 1;
+//     right += 1;
+//     console.log(inputLine);
+// }
+
+
+
+
+// 9)
+let n = 89;
+let primo = true;
+
+for (let index = 2; index < n; index += 1) {
+  if (n % index === 0) {
+    primo = false;
+  }
+}
+
+console.log(primo);
