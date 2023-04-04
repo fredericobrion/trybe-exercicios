@@ -21,11 +21,11 @@ let lesson1 = {
 
 // 1) Crie uma função para adicionar o turno da noite na lesson2. Essa função deve ter três parâmetros: o objeto a ser modificado, a chave a ser adicionada e o valor dela.
 
-// function adicionaTurno(object, key, value) {
-//     return object[key] = value;
-// }
+function adicionaTurno(object, key, value) {
+    return object[key] = value;
+}
 
-// adicionaTurno(lesson2, 'turno', 'noite');
+adicionaTurno(lesson2, 'turno', 'noite');
 
 
 
@@ -68,7 +68,6 @@ let allLessons = Object.assign({}, {
 });
 
 
-
 // 6) Com base no objeto elaborado no tópico anterior, crie uma função que retorne o número total de estudantes em todas as aulas.
 
 // function totalAlunos(obj) {
@@ -84,6 +83,47 @@ let allLessons = Object.assign({}, {
 // }
 // console.log(totalAlunos(allLessons));
 
+// function totalAlunos(obj) {
+//   let sum = 0;
+//   let keys = Object.keys(obj);
+
+//   for (let index in keys) {
+//     sum += obj[keys[index]].numeroEstudantes;
+//   }
+//   return sum;
+// }
+
 
 
 // 7) Crie uma função que obtenha o valor da chave de acordo com sua posição no objeto. Por exemplo:
+
+// function getValueByNumber(obj, number) {
+//   return Object.values(obj)[number];
+// } 
+
+// console.log(getValueByNumber(lesson1, 0));
+
+
+function getValueByNumber(obj, number) {
+  let objeto = Object.entries(allLessons);
+  for (let index in objeto) {
+    if (objeto[index][0] === obj) {
+      console.log('true');
+    }
+  }
+}
+getValueByNumber('lesson1', 0);
+
+
+
+// 8) Crie uma função que verifique se o par chave/valor existe na função. Essa função deve possuir três parâmetros:o objeto, o nome da chave e o valor dela.
+
+// function verifyPair(obj, key, value) {
+//   let entries = Object.entries(obj);
+//   let isEqual = false;
+//   for (let index in entries) {
+//     if (entries[index][0] === key && entries[index][1] === value) isEqual = true;
+//   }
+//   return isEqual;
+// }
+// console.log(verifyPair(lesson2,'professor','Carlos'));
