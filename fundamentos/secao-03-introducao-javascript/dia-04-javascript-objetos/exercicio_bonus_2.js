@@ -25,11 +25,7 @@ function converteNumero (string) {
                 }
                 
             }
-            if (numeroAtual < numeroProximo) {
-                sum -= numeroAtual;
-            } else {
-                sum += numeroAtual;
-            }
+            const conferirMaior = numeroAtual < numeroProximo ? sum -= numeroAtual : sum += numeroAtual;
             numeroAtual = 0;
             numeroProximo = 0;        
         }
