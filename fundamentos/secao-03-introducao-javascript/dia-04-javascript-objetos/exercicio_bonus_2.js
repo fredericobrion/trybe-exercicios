@@ -32,4 +32,4 @@ function converteNumero (string) {
     return sum;    
 }
 
-console.log(converteNumero('LVII'));
+console.log(converteNumero('LVII')); 
