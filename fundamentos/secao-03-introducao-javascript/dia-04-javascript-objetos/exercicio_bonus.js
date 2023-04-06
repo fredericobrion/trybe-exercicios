@@ -67,7 +67,6 @@ let allLessons = Object.assign({}, {
   lesson3: lesson3,
 });
 
-
 // 6) Com base no objeto elaborado no tópico anterior, crie uma função que retorne o número total de estudantes em todas as aulas.
 
 // function totalAlunos(obj) {
@@ -103,27 +102,18 @@ let allLessons = Object.assign({}, {
 
 // console.log(getValueByNumber(lesson1, 0));
 
-
 function getValueByNumber(obj, number) {
-  let objeto = Object.entries(allLessons);
-  for (let index in objeto) {
-    if (objeto[index][0] === obj) {
-      console.log('true');
-    }
-  }
+  const array = Object.values(allLessons[obj]);
+  return Object.values(allLessons[obj])[0];
 }
-getValueByNumber('lesson1', 0);
-
-
 
 // 8) Crie uma função que verifique se o par chave/valor existe na função. Essa função deve possuir três parâmetros:o objeto, o nome da chave e o valor dela.
 
-// function verifyPair(obj, key, value) {
-//   let entries = Object.entries(obj);
-//   let isEqual = false;
-//   for (let index in entries) {
-//     if (entries[index][0] === key && entries[index][1] === value) isEqual = true;
-//   }
-//   return isEqual;
-// }
-// console.log(verifyPair(lesson2,'professor','Carlos'));
+function verifyPair(obj, key, value) {
+  let entries = Object.entries(obj);
+  let isEqual = false;
+  for (let index in entries) {
+    if (entries[index][0] === key && entries[index][1] === value) isEqual = true;
+  }
+  return isEqual;
+}
