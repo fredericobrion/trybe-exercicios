@@ -56,3 +56,44 @@ html {
         line-height: 1.8em;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    body {
+        background-color: rgb(138, 138, 212);
+        margin: 10px 80px;
+        font-size: 1.4em;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        margin-right: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 50px;
+        justify-content: center;    
+    }
+
+    nav ul li {
+        font-size: 1.4em;
+    }
+
+    header p {
+        font-size: 2em;
+    }
+
+    p {
+        line-height: 1.8em;
+    }
+
+    .aside-one {
+        margin-right: 60px;
+    }
+  }
