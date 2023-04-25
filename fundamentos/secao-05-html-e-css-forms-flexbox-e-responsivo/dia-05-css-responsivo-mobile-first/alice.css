@@ -6,10 +6,18 @@ html {
     box-sizing: inherit;
   }
 
+  .container {
+    display: flex;
+  }
+
   @media screen and (max-width: 600px) {
     body {
         background-color: aquamarine;
         margin: 10px 25px;
+    }
+
+    .container{
+        flex-direction: column;
     }
 
     p {
@@ -17,4 +25,34 @@ html {
     }
   }
 
-  
+  @media screen and (min-width: 600px) {
+    body {
+        background-color: tomato;
+        margin: 10px 25px;
+        font-size: 1.2em;
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    header {
+        margin-right: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 50px;
+        justify-content: center;    
+    }
+
+    header p {
+        font-size: 1.7em;
+    }
+
+    p {
+        line-height: 1.8em;
+    }
+  }
