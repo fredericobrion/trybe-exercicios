@@ -9,41 +9,41 @@ Contém todas as atividades desenvolvidas por mim durante minha trajetória na T
 - [X] 1.3 Git & GitHub - Entendendo os comandos
 
 #### Seção 2: Introdução à HTML & CSS
-- [ ] 2.1 HTML & CSS - Estruturas de página
-- [ ] 2.2 HTML & CSS - Primeiros passos em CSS
-- [ ] 2.3 HTML & CSS - Seletores e posicionamento
-- [ ] 2.4 HTML Semântico
-- [ ] 2.5 Projeto - Lessons Learned
+- [X] 2.1 HTML & CSS - Estruturas de página
+- [X] 2.2 HTML & CSS - Primeiros passos em CSS
+- [X] 2.3 HTML & CSS - Seletores e posicionamento
+- [X] 2.4 HTML Semântico
+- [X] 2.5 Projeto - Lessons Learned
 
 #### Seção 3: Introdução à JavaScript
-- [ ] 3.1 JavaScript - Primeiros passos
-- [ ] 3.2 JavaScript - Array e loop For
-- [ ] 3.3 JavaScript - Funções
-- [ ] 3.4 JavaScript - Objetos
-- [ ] 3.5 JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 3.6 Projeto - Playground Functions
+- [X] 3.1 JavaScript - Primeiros passos
+- [X] 3.2 JavaScript - Array e loop For
+- [X] 3.3 JavaScript - Funções
+- [X] 3.4 JavaScript - Objetos
+- [X] 3.5 JavaScript ES6 - let, const, arrow functions e template literals
+- [X] 3.6 Projeto - Playground Functions
 
 #### Seção 4: JavaScript: DOM, Eventos e Web Storage
-- [ ] 4.1 JavaScript - DOM e seletores
-- [ ] 4.2 JavaScript - Trabalhando com elementos
-- [ ] 4.3 JavaScript - Eventos
-- [ ] 4.4 JavaScript - JavaScript - Web Storage
-- [ ] 4.5 Projeto - Arte com Pixels
-- [ ] 4.6 Projeto Bônus
+- [X] 4.1 JavaScript - DOM e seletores
+- [X] 4.2 JavaScript - Trabalhando com elementos
+- [X] 4.3 JavaScript - Eventos
+- [X] 4.4 JavaScript - JavaScript - Web Storage
+- [X] 4.5 Projeto - Arte com Pixels
+- [X] 4.6 Projeto Bônus
 
 #### Seção 5: HTML e CSS: Fromes, Flexbox e Responsivo
-- [ ] 5.1 HTML & CSS - Forms
-- [ ] 5.2 Bibliotecas JavaScript e Frameworks CSS
-- [ ] 5.3 CSS Flexbox - Parte 1
-- [ ] 5.4 CSS Flexbox - Parte 2
-- [ ] 5.5 CSS Responsivo - Mobile First
-- [ ] 5.6 Projeto - Trybewarts
+- [X] 5.1 HTML & CSS - Forms
+- [X] 5.2 Bibliotecas JavaScript e Frameworks CSS
+- [X] 5.3 CSS Flexbox - Parte 1
+- [X] 5.4 CSS Flexbox - Parte 2
+- [X] 5.5 CSS Responsivo - Mobile First
+- [X] 5.6 Projeto - Trybewarts
 
 #### Seção 6: Introdução à JavaScript e Testes Unitários
-- [ ] 6.1 Fluxo de exceções e manipulação de objetos
-- [ ] 6.2 Primeiros passos em Jest
-- [ ] 6.3 Matchers e cobertura de código
-- [ ] 6.4 Projeto - JavaScript Testes Unitários
+- [X] 6.1 Fluxo de exceções e manipulação de objetos
+- [X] 6.2 Primeiros passos em Jest
+- [X] 6.3 Matchers e cobertura de código
+- [X] 6.4 Projeto - JavaScript Testes Unitários
 
 #### Seção 7: Higher Order Functions do JavaScript ES6
 - [ ] 7.1 Introdução a Higher Order Functions
