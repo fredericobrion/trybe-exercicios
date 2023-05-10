@@ -46,10 +46,10 @@ Contém todas as atividades desenvolvidas por mim durante minha trajetória na T
 - [X] 6.4 Projeto - JavaScript Testes Unitários
 
 #### Seção 7: Higher Order Functions do JavaScript ES6
-- [ ] 7.1 Introdução a Higher Order Functions
-- [ ] 7.2 Higher Order Functions - sort e map
-- [ ] 7.3 Higher Order Function - filter e reduce
-- [ ] 7.4 JavaScript ES6 - spread operator, rest parameters e object destructuring
+- [X] 7.1 Introdução a Higher Order Functions
+- [X] 7.2 Higher Order Functions - sort e map
+- [X] 7.3 Higher Order Function - filter e reduce
+- [X] 7.4 JavaScript ES6 - spread operator, rest parameters e object destructuring
 - [ ] 7.5 JavaScript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
 - [ ] 7.6 Projeto - Zoo functions
 
