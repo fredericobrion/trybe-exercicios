@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #DDE6ED;
+}
+
+h1 {
+    font-size: 4em;
+    color: #27374D;
+}
+
+#nome {
+    font-size: 2em;
+    color: #526D82;
+}
+
+#sortear-botao {
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    color: #27374D;
+    background-color: #9DB2BF;
+    font-size: 2em;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#sortear-botao:hover {
+    background-color: #526D82;
+    color: #DDE6ED;
+}
