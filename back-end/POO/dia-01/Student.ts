@@ -1,17 +1,16 @@
-class Student {
-  private _enrollment: string;
-  private _name: string;
-  private _examsGrades: number[];
-  private _assignmentsGrades: number[];
+import Person from "./Person";
+
+export default class Student extends Person {
+  private _enrollment = String();
+  private _examsGrades: number[] = [];
+  private _assignmentsGrades: number[] = [];
 
   constructor(
-    enrollment: string,
     name: string,
+    birthDate: Date,
   ) {
-    this._enrollment = enrollment;
-    this._name = name;
-    this._examsGrades = [];
-    this._assignmentsGrades = [];
+    super(name, birthDate);
+    this._enrollment = this.generateEnrollment();
   }
 
   get enrollment(): string {
@@ -19,18 +18,9 @@ class Student {
   }
 
   set enrollment(value: string) {
+    if (value.length < 16) throw new Error('A matrícula deve ter no mínimo 16 caracteres');
+
     this._enrollment = value;
-  }
-
-  get name(): string {
-    return this._name;
-  }
-
-  set name(value: string) {
-    if (value.length < 3) {
-      throw new Error('O nome deve ter no mínimo 3 caracteres');
-    }
-    this._name = value;
   }
 
   get examsGrades(): number[] {
@@ -53,6 +43,12 @@ class Student {
       throw new Error('O número de notas não pode ser maior que 2');
     }
     this._assignmentsGrades = value;
+  }
+
+  generateEnrollment(): string {
+    const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
+
+    return `STU${randomStr}`;
   }
 
   sumGrades(): number {
